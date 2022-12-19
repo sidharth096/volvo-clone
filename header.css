@@ -1,0 +1,56 @@
+.header{
+    width: 100%;
+    height: 65px;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header-left-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+   
+}
+.volvo-logo-container{
+    width: 110px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.volvo-logo{
+    width: 97px;
+    height: 10px;
+}
+.header-right-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+  
+}
+.our-cars-container{
+    width: 80px;
+    height: 15px;
+    margin-right: 10px;
+    font-size: 16px;   
+}
+.our-cars{
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu-conainer{
+    width: 80px;
+    height: 15px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.menu{
+    text-decoration: none;
+    font-weight: bold;
+}

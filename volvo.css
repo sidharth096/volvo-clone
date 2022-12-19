@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.image1-container{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    margin-top: 1px;
+    
+}
+.image1{
+    width: 100%;
+    height: 580px;
+
+}
+.image-top-letters{
+   position: absolute; 
+   left: 450px;
+   top: 100px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.one{
+    color: white;
+    font-size:x-large;   
+}
+.two{
+    color: white;
+    font-size:50px;
+    font-weight: bolder;
+    font-family:'Martian Mono', monospace;
+    line: height 1px;px;
+    letter-spacing: 0.02rem;
+
+}
+.three{
+    color: white;
+    font-size: large;
+}
+.letter-box1-container{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+
+}
+.letter-box1{
+    width: 750px;
+    height: 130px;
+    margin-left: 400px;
+}
+.first-line{
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+    letter-spacing: 1px
+}
+.second-line{
+    margin-top: 10px;
+    display: flex;
+    height: 30px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    
+    
+}
+.bold-line{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Volvo Novum, Arial, sans-serif;;
+}
+.lite-line{
+    font-size: 35px;
+    font: weight 600px;
+    color: rgb(108, 106, 106);
+    font-family: Volvo Novum, Arial, sans-serif;;
+}
+.three-image-container{
+    width: 100%;
+    height: 950px;
+}
+.three-image-inner-container{
+    height: 950px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.image-1st-line{
+    height: 530px;
+    margin-bottom: 14px;
+}
+.image-2nd-line{
+    height: 400px;
+    display: flex;
+}
+.image2{
+    width:100%;
+    height: 530px;
+   
+}
+.image3-container{
+    width: 60%;
+    margin-right: 14px;
+    
+}
+.image3{
+    width: 100%;
+    height: 400px;
+    width: 100%;
+}
+.image4-container{
+    width: 40%;
+}
+.image4{
+    width: 100%;
+    height: 400px;
+    width: 100%
+}
+.letter-box2-container{
+    width: 100%;
+    height:100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letter-box2{
+ 
+  height: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border: 1px;
+  border-color: aqua;
+}
+.learn-about-recharge{
+    text-decoration: none;
+    font-weight: 500;
+    color: #1c6bba;
+    font-family: Volvo Novum, Arial, sans-serif;;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+  
+}
+.letter-box3-container{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letter-box3{
+    width: 300px;
+    height:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-models{
+    font-size: 2rem;
+    line-height: 1.125;
+    font-style: normal;
+    font-family: Volvo Novum, Arial, sans-serif;
+}
+.two-image-container{
+    width: 100%;
+    height: 450px;
+}
+.two-image-inner-container{
+    height: 450px;
+    margin-left: 130px;
+    margin-right: 130px; 
+    display: flex;
+}
+.image5-container{
+  width: 50%;
+  margin-right: 13px;
+}
+.image6-container{
+    width: 50%;
+}
+.image5{
+    width: 100%;
+  height: 450px;
+}
+.image6{
+  width: 100%;
+  height: 450px;
+}
+.letter-box4-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.letter-box4-left{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letter-box4-right{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn{
+    text-decoration: none;
+    color: #1c6bba;
+    font-family: Volvo Novum, Arial, sans-serif;
+}
+.shop{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #1c6bba;
+    font-family: Volvo Novum, Arial, sans-serif;
+}
+.four-image-container{
+    width: 100%;
+    height: 300px;
+
+}
+.four-image-inner-container{ 
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+}
+.image-group-container{
+    height: 300px;
+    width: 25%;
+    margin-right: 9px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.image7{
+    width:100%;
+    height: 218px;
+    margin-top: 20px;
+}
+.image8{
+    width:100%;
+    height: 218px;
+    margin-top: 20px;
+}
+.image9{
+    width:100%;
+    height: 218px;
+    margin-top: 20px;
+}
+.image10{
+    width:100%;
+    height: 218px;
+    margin-top: 20px;
+}
+.model{
+  display: flex;
+  color: grey;
+  margin-top: 3px;
+}
+.model-name{
+    font-weight: 500;
+    font-size: large;
+    color: black;
+}
+.letter-box5-container{
+    width: 100%;
+    height:80px ;
+}
+.letter-box5-inner-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.letter-box6-container{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.letter-box6-inner-container{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.why-volvo-all-container{
+    width: 100%;
+    height: 1190px;
+    margin-top: 100px;
+    background-color: rgb(198, 191, 191);
+}
+.why-volvo-all-inner-container{
+    height: 1190px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.why-volvo-letter-container{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-volvo-text{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Volvo Novum, Arial, sans-serif;
+
+}
+.why-volvo-image-container{
+    width: 100%;
+    height: 692px;
+}
+.image11{
+    width: 100%;
+    height: 692px; ;
+}
+.why-volvo-group-letter-container{
+    height: 150px;
+    display: flex;
+
+}
+.group-letter{
+    width: 33.3%;
+}
+.group-letter-heading{
+    font-weight: bold;
+    font-size: larger;
+    font-family: Volvo Novum, Arial, sans-serif ;
+}
+.group-letter-subject{
+    line-height: 24px;
+    font-family:  Volvo Novum, Arial, sans-serif;
+}
+.learn-more-about-volvo-container{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image12-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.image12-inner-container{
+    height: 500px;
+    width: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.image12{
+    height: 500px;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(239, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content:center
+}
+.footer-letter-container{
+    width: 500px;
+    height: 50px;
+}
+.button{
+    border-radius: 7px;
+    border-color: #1c6bba;
+    border-width: 0.5px;
+}
+.button:hover{
+    background-color: #1c6bba;
+    color:white;
+}
+.learn-about-recharge:hover{
+    color: white;
+
+}
+
